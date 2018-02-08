@@ -1,6 +1,7 @@
 <?php
 
-include './clases/promociones.php';
+include './enlaces.php';
+include $urlClases.'promociones.php';
 
 $promocionBelleza = array(array("imagenes/Belleza_2.jpg", "Corte Dama a mitad de precio", '$20.000', '50%',"#"),
     array("imagenes/Belleza_Peluqueria_Alisado_Mujer_2.jpg", "Alizado especial para ti", '$35.000', '35%',"#")

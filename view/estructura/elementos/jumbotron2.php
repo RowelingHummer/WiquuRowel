@@ -1,6 +1,7 @@
 <?php
 
-include './clases/jumbotron2.php';
+include './enlaces.php';
+include $urlClases.'jumbotron2.php';
 
 $contenido = array(array("¿Quienes somos?",
         "En ProShare vivirás una nueva experiencia.Somos un nuevo concepto de comunidad donde cada integrante contribuye a un mejor servicio."

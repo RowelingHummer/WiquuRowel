@@ -72,7 +72,7 @@ class header {
     private function generarLogo() {
         $e = '<div class="" >
                 <a href="./home.php">
-                    <img class="icono-wiquu" src="./imagenes/wiqüu.png" alt="Avatar">
+                    <img class="icono-wiquu" src="./view/imagenes/wiqüu.png" alt="Avatar">
                 </a>
             </div>';
         return $e;

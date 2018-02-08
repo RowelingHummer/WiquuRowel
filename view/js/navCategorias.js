@@ -7,21 +7,21 @@
 
 //funcion que arma los subservicios y crea la tabla con losn mismos.
 var categorias, j, btnWeb,btnMb;
-var categorias = {"belleza": ["belleza", "./imagenes/iconos/belleza.png", "belleza"],
-    "automovil": ["automovil", "./imagenes/iconos/vehiculos.png", "automovil"],
-    "deportes": ["comida", "./imagenes/iconos/comida.png", "deportes"],
-    "mascotas": ["educacion", "./imagenes/iconos/educacion.png", "mascotas"],
-    "hogar": ["hogar", "./imagenes/iconos/hogar.png", "hogar"],
-    "profesional": ["profesional", "./imagenes/iconos/profesionales.png", "profesional"],
-    "salud": ["salud", "./imagenes/iconos/salud.png", "salud"],
-    "tecnologia": ["tecnologia", "./imagenes/iconos/tecnologia.png", "tecnologia"],
-    "comida": ["comida", "./imagenes/iconos/belleza.png", "comida"],
-    "soporte": ["oficina", "./imagenes/iconos/oficina.png", "soporte"],
-    "culo": ["mascotas", "./imagenes/iconos/mascotas.png", "culo"],
-    "cara": ["eventos", "./imagenes/iconos/eventos.png", "cara"],
-    "perra": ["perra", "./imagenes/iconos/belleza.png", "perra"],
-    "zorra": ["perra", "./imagenes/iconos/belleza.png", "perra"],
-    "mola": ["mola", "./imagenes/iconos/belleza.png", "mola"]};
+var categorias = {"belleza": ["belleza", "./view/imagenes/iconos/belleza.png", "belleza"],
+    "automovil": ["automovil", "./view/imagenes/iconos/vehiculos.png", "automovil"],
+    "deportes": ["comida", "./view/imagenes/iconos/comida.png", "deportes"],
+    "mascotas": ["educacion", "./view/imagenes/iconos/educacion.png", "mascotas"],
+    "hogar": ["hogar", "./view/imagenes/iconos/hogar.png", "hogar"],
+    "profesional": ["profesional", "./view/imagenes/iconos/profesionales.png", "profesional"],
+    "salud": ["salud", "./view/imagenes/iconos/salud.png", "salud"],
+    "tecnologia": ["tecnologia", "./view/imagenes/iconos/tecnologia.png", "tecnologia"],
+    "comida": ["comida", "./view/imagenes/iconos/belleza.png", "comida"],
+    "soporte": ["oficina", "./view/imagenes/iconos/oficina.png", "soporte"],
+    "culo": ["mascotas", "./view/imagenes/iconos/mascotas.png", "culo"],
+    "cara": ["eventos", "./view/imagenes/iconos/eventos.png", "cara"],
+    "perra": ["perra", "./view/imagenes/iconos/belleza.png", "perra"],
+    "zorra": ["perra", "./view/imagenes/iconos/belleza.png", "perra"],
+    "mola": ["mola", "./view/imagenes/iconos/belleza.png", "mola"]};
 //the loading image
 
 //the ul element

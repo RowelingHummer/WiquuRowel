@@ -5,7 +5,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-include './clases/dropdown.php';
+include './enlaces.php';
+include $urlClases.'dropdown.php';
 $idEmpresa = "1584";
 $contenidoAyuda = array(array("Terminos y condiciones",
         "#"

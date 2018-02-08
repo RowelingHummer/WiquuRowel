@@ -5,6 +5,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <?php 
+include './enlaces.php';
 $nombreUsuario = "Margarita";
 $idPagina = 1;
 $urlImagenPerfil = "./imagenes/Avatar.jpg";
@@ -27,40 +28,40 @@ $urlImagenPerfil = "./imagenes/Avatar.jpg";
     </head>
     <body class="rowel-padding-32" onload="armarNavCategorias()">
         <?php
-        include_once './estructura/elementos/header.php';
-        include_once './estructura/elementos/navInferiorMobile.php';
-        include_once './estructura/elementos/modalLogin.php';
+        include_once $urlElementos.'header.php';
+        include_once $urlElementos.'navInferiorMobile.php';
+        include_once $urlElementos.'modalLogin.php';
         ?>
         <div class="carrusel" style="margin-top: 20px">
             <?php
-            include_once './estructura/elementos/carrousel.php';
+            include_once $urlElementos.'carrousel.php';
             ?>
  
         </div>
         <div class="rowel-container container">
             <?php
-            include_once './estructura/elementos/navCategorias.php';
+            include_once $urlElementos.'navCategorias.php';
             ?>             
         </div>
         
             <?php
-            include_once './estructura/elementos/navCategoriasMobile.php';
+            include_once $urlElementos.'navCategoriasMobile.php';
             ?>  
        
         <div class='container rowel-text-wiquu-az rowel-padding-16'><h1><strong>Promociones</strong></h1></div>
         <div>
             <?php
-            include_once './estructura/elementos/promociones.php';
+            include_once $urlElementos.'promociones.php';
             ?>         
         </div>
         <div>
             <?php
-            include_once './estructura/elementos/jumbotron2.php';
+            include_once $urlElementos.'jumbotron2.php';
             ?>         
         </div>
         <div>
             <?php
-            include_once './estructura/elementos/navCategorias.php';
+            include_once $urlElementos.'navCategorias.php';
             ?>         
         </div>
         <div class="container">
@@ -74,7 +75,7 @@ $urlImagenPerfil = "./imagenes/Avatar.jpg";
             <h5>some text...</h5>
 
         </div>
-        <?php include_once './estructura/elementos/footer.php'; ?>
+        <?php include_once $urlElementos.'footer.php'; ?>
         <br><br>
         <script>
             var $thumbs_wrapper = $('#navCategorias');

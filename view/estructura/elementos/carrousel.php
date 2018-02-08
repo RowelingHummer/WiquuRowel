@@ -1,5 +1,6 @@
 <?php
-include './clases/carrousel.php';
+include './enlaces.php';
+include $urlClases.'carrousel.php';
 ?>
 
 <div class="">

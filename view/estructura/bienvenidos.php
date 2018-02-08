@@ -4,6 +4,11 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+<?php
+include './enlaces.php';
+$nombreUsuario = '';
+$idPagina = 0;
+?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -22,24 +27,24 @@ and open the template in the editor.
     </head>
     <body class="rowel-padding-32" onload="armarNavCategorias()">
         <?php
-        include_once './estructura/elementos/header.php';
-        include_once './estructura/elementos/navInferiorMobile.php';
-        include_once './estructura/elementos/modalLogin.php';
+        include_once $urlElementos.'header.php';
+        include_once $urlElementos.'navInferiorMobile.php';
+        include_once $urlElementos.'modalLogin.php';
         ?>
         <div class="rowel-container rowel-content" style="max-width:1400px;margin-top:80px">    
             <!-- The Grid -->
             <div class="rowel-row">
                 <!-- Left Column -->
                 <div class="rowel-col l6 m6 s12 rowel-padding-16">
-                    <?php include_once './estructura/elementos/mensajeBienvenidos.php'; ?>
+                    <?php include_once $urlElementos.'mensajeBienvenidos.php'; ?>
 
                 </div>
                 <div class="rowel-col l6 m6 s12">
-                    <?php include_once './estructura/elementos/formularioEditarPerfil.php'; ?>
+                    <?php include_once $urlElementos.'formularioEditarPerfil.php'; ?>
                 </div>
             </div>
         </div>
-        <?php include_once './estructura/elementos/footer.php'; ?>
+        <?php include_once $urlElementos.'footer.php'; ?>
 
     </body>
 </html>

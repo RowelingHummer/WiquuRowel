@@ -1,6 +1,6 @@
 <?php
-
-include './clases/ajustesGenerales.php';
+include './enlaces.php';
+include $urlClases.'ajustesGenerales.php';
 
 $ajustes = array(
     array("material-icons account_balance_wallet", "153.000", "Billetera", "billetera"),

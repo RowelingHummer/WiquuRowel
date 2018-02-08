@@ -1,5 +1,6 @@
 <?php
-include './clases/formulario.php';
+include './enlaces.php';
+include $urlClases.'formulario.php';
 $age = array("Peter" => array("1", "2", "3"), "Ben" => array("4", "5", "6"), "Joe" => array("7", "8", "9"));
 $formulario = array("Editar Perfil","rowel-text-wiquu-az rowel-xxlarge rowel-center","rowel-text-wiquu-am ","funcion()","","");/** nombre , clases , accion */
 $submit = array("Guardar","rowel-button rowel-section rowel-wiquu-az rowel-ripple rowel-padding rowel-hover-wiquu-am rowel-hover-text-wiquu-az");/** nombre , clases */
