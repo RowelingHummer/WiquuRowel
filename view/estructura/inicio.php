@@ -54,12 +54,12 @@ $idPagina = 0;
                 </form>
             </div> 
             <div class="rowel-display-bottomleft rowel-text-white rowel-large" style="padding:24px 48px">
-                <i class="fa fa-facebook-official rowel-hover-opacity"></i>
-                <i class="fa fa-instagram rowel-hover-opacity"></i>
-                <i class="fa fa-snapchat rowel-hover-opacity"></i>
-                <i class="fa fa-pinterest-p rowel-hover-opacity"></i>
-                <i class="fa fa-twitter rowel-hover-opacity"></i>
-                <i class="fa fa-linkedin rowel-hover-opacity"></i>
+                <i class="f fa fa-facebook rowel-hover-opacity"></i>
+                <i class="f fa fa-instagram rowel-hover-opacity"></i>
+                <i class="f fa fa-snapchat-ghost rowel-hover-opacity"></i>
+                <i class="f fa fa-pinterest rowel-hover-opacity"></i>
+                <i class="f fa fa-twitter rowel-hover-opacity"></i>
+                <i class="f fa fa-linkedin rowel-hover-opacity"></i>
             </div>
             <div class="rowel-display-bottomleft rowel-padding-large rowel-text-white">
                 Powered by <a href="http://rowel.co" target="_blank">Rowel Ingeniería</a>

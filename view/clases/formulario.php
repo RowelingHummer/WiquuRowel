@@ -112,7 +112,7 @@ class formulario {
     }
 
     private function generarTitulo() {
-        $e = '<h1 class="' . $this->formulario[1] . '"><strong>' . $this->formulario[0] . '</strong></h2>';
+        $e = '<h2 class="' . $this->formulario[1] . '"><strong>' . $this->formulario[0] . '</strong></h2>';
         return $e;
     }
 

@@ -10,7 +10,7 @@
 
         <div id="modalLoginHeader" class="rowel-center rowel-margin"><br>
             <span onclick="closeModalLogin()" class="rowel-button rowel-xlarge rowel-hover-red rowel-display-topright" title="Close Modal">&times;</span>
-            <img src="imagenes/ProShare_FondoAzul_LetrasNaranja_800x800.png" alt="Avatar" style="width:40%" class="rowel-circle">
+            <img src="<?php echo $urlImagen;?>Wiqüu-isotipo.png" alt="Avatar" style="width:40%" class="rowel-circle">
         </div>
         <div id="formLogin" class="form">
             <form class="rowel-panel" action="/Login.php">

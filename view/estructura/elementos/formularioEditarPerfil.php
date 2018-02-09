@@ -2,20 +2,23 @@
 include './enlaces.php';
 include $urlClases.'formulario.php';
 $age = array("Peter" => array("1", "2", "3"), "Ben" => array("4", "5", "6"), "Joe" => array("7", "8", "9"));
-$formulario = array("Editar Perfil","rowel-text-wiquu-az rowel-xxlarge rowel-center","rowel-text-wiquu-am ","funcion()","","");/** nombre , clases , accion */
+$formulario = array("Editar Perfil","rowel-text-wiquu-az rowel-xxlarge rowel-center","rowel-text-wiquu-am ","funcion()","","right");/** nombre , clases , accion */
 $submit = array("Guardar","rowel-button rowel-section rowel-wiquu-az rowel-ripple rowel-padding rowel-hover-wiquu-am rowel-hover-text-wiquu-az");/** nombre , clases */
 $camposFormulario = array(
     array("file",""   , "","Imagen","Nombre Usuario","","","","",""),
     array("text","Nombre Usuario"   , "","NombreUsuario","Nombre Usuario","","","","",""),
     array("text","Primer Nombre"    , "","PrimerNombre","Primer Nombre","","","","",""),
+    array("select","Tipo de Documento", "","TipoDocumento","Tipo de Documento","","","","",""),
     array("text","Segundo Nombre"   , "","SegundoNombre","Segundo Nombre","","","","",""),
     array("text","Primer Apellido"  , "","PrimerApellido","Primer Apellido","","","","",""),
     array("text","Segundo Apellido" , "","SegundoApellido","Segundo Apellido","","","","",""),
-    array("select","Tipo de Documento", "","TipoDocumento","Tipo de Documento","","","","",""),
+    array("select","Tipo de vehiculo", "","TipoVehiculo","Tipo de Vehiculo","","","","",""),
     array("text","No. Documento"    , "","NoDocumento","No. Documento","","","","",""),
     array("text","Teléfono"         , "","Teléfono","Teléfono","","","","","")
 );/**array(array( Tipo , label , clasesLabel, nombre , placeholder , clasesInput , valor por defecto , valor Maximo , valor Minimo , otros atributos ))*/
-$camposSelect=array("TipoDocumento"=>array("1"=>"Cedula de ciudadania","2"=>"cedula de extranjeria","3"=>"Pasaporte","4"=>"Tarjeta de identidad"));
+$camposSelect=array("TipoDocumento"=>array("1"=>"Cedula de ciudadania","2"=>"cedula de extranjeria","3"=>"Pasaporte","4"=>"Tarjeta de identidad"),
+"TipoVehiculo"=>array("1"=>"sadf","2"=>"asdf","3"=>"gfdh","4"=>"retert")
+);
 ?>
 <div class="">
     <?php
